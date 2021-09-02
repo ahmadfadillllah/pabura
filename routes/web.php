@@ -34,6 +34,9 @@ Route::get('/logout', 'AuthController@logout')->name('logout');
 //Halaman Admin
 Route::get('/dashboard/home', 'AdminController@home')->name('home');
 
+Route::get('/dashboard/seller', 'AdminController@seller')->name('seller');
+Route::post('/inputproduk', 'AdminController@inputproduk')->name('inputProduk');
+
 
 //Halaman Profile
 Route::get('/dashboard/profile', 'ProfileController@profile')->name('profile');

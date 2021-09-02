@@ -21,7 +21,7 @@ class AuthController extends Controller
             return redirect()->route('home');
         }
 
-        return redirect()->route('login')->with('notification', 'Email / Password Salah');
+        return redirect()->route('login')->with('salah', 'Email / Password Salah');
     }
 
     public function register()
