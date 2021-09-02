@@ -45,6 +45,7 @@
 										</span>
 										<!--end::Svg Icon-->
 									</button>
+									
 									<!--end::Mobile menu toggle-->
 									<!--begin::Logo image-->
 									<a href="javascript:void(0);">
@@ -52,6 +53,8 @@
                                             <span id="kt_landing_hero_text">Pabura</span>
                                         </span></h1>
 									</a>
+									<img src="UMI.png" alt="logo UMI">
+
 									<!--end::Logo image-->
 								</div>
 								<!--end::Logo-->
@@ -104,7 +107,7 @@
 							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">PA'BURA
 							<br />
 							<span style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-								<span id="kt_landing_hero_text">Sayur-sayuran</span>
+								<span id="kt_landing_hero_text">Menjual Obat-obatan dan Alat Medis</span>
 							</span></h1>
 							<!--end::Title-->
 							<!--begin::Action-->
@@ -131,7 +134,7 @@
 					<!--begin::Heading-->
 					<div class="text-center mb-17">
 						<!--begin::Title-->
-						<h3 class="fs-2hx text-dark mb-5" id="list-sayur" data-kt-scroll-offset="{default: 100, lg: 150}">Daftar Sayur</h3>
+						<h3 class="fs-2hx text-dark mb-5" id="list-sayur" data-kt-scroll-offset="{default: 100, lg: 150}">Daftar Obat</h3>
 						<!--end::Title-->
 						<!--begin::Text-->
 						<div class="fs-5 text-muted fw-bold">Daftar Penjual sayur terdekat anda!</div>
@@ -145,7 +148,7 @@
 							<!--begin::Story-->
 							<div class="text-center mb-10 mb-md-0">
 								<!--begin::Illustration-->
-								<img src="{{ asset('admin/dist/assets') }}/media/illustrations/process-2.png" class="mh-125px mb-9" alt="" />
+								<img src="image/UMI.png" class="mh-125px mb-9" alt="Logo UMI" />
 								<!--end::Illustration-->
 								<!--begin::Heading-->
 								<div class="d-flex flex-center mb-5">
@@ -153,7 +156,7 @@
 									<span class="badge badge-circle badge-light-success fw-bolder p-5 me-3 fs-3">1</span>
 									<!--end::Badge-->
 									<!--begin::Title-->
-									<div class="fs-5 fs-lg-3 fw-bolder text-dark">Jane Miller</div>
+									<div class="fs-5 fs-lg-3 fw-bolder text-dark">Paracetamol</div>
 									<!--end::Title-->
 								</div>
 								<!--end::Heading-->
@@ -984,300 +987,16 @@
 								<div class="row g-10">
 									<!--begin::Col-->
 									<div class="col-xl-4">
-										<div class="d-flex h-100 align-items-center">
-											<!--begin::Option-->
-											<div class="w-100 d-flex flex-column flex-center rounded-3 bg-body py-15 px-10">
-												<!--begin::Heading-->
-												<div class="mb-7 text-center">
-													<!--begin::Title-->
-													<h1 class="text-dark mb-5 fw-boldest">Startup</h1>
-													<!--end::Title-->
-													<!--begin::Description-->
-													<div class="text-gray-400 fw-bold mb-5">Best Settings for Startups</div>
-													<!--end::Description-->
-													<!--begin::Price-->
-													<div class="text-center">
-														<span class="mb-2 text-primary">$</span>
-														<span class="fs-3x fw-bolder text-primary" data-kt-plan-price-month="99" data-kt-plan-price-annual="999">99</span>
-														<span class="fs-7 fw-bold opacity-50" data-kt-plan-price-month="Mon" data-kt-plan-price-annual="Ann">/ Mon</span>
-													</div>
-													<!--end::Price-->
-												</div>
-												<!--end::Heading-->
-												<!--begin::Features-->
-												<div class="w-100 mb-10">
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Up to 10 Active Users</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Up to 30 Project Integrations</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800">Keen Analytics Platform</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Error-circle.svg-->
-														<span class="svg-icon svg-icon-1">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M12.0355339,10.6213203 L14.863961,7.79289322 C15.2544853,7.40236893 15.8876503,7.40236893 16.2781746,7.79289322 C16.6686989,8.18341751 16.6686989,8.81658249 16.2781746,9.20710678 L13.4497475,12.0355339 L16.2781746,14.863961 C16.6686989,15.2544853 16.6686989,15.8876503 16.2781746,16.2781746 C15.8876503,16.6686989 15.2544853,16.6686989 14.863961,16.2781746 L12.0355339,13.4497475 L9.20710678,16.2781746 C8.81658249,16.6686989 8.18341751,16.6686989 7.79289322,16.2781746 C7.40236893,15.8876503 7.40236893,15.2544853 7.79289322,14.863961 L10.6213203,12.0355339 L7.79289322,9.20710678 C7.40236893,8.81658249 7.40236893,8.18341751 7.79289322,7.79289322 C8.18341751,7.40236893 8.81658249,7.40236893 9.20710678,7.79289322 L12.0355339,10.6213203 Z" fill="#000000" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800">Targets Timelines &amp; Files</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Error-circle.svg-->
-														<span class="svg-icon svg-icon-1">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M12.0355339,10.6213203 L14.863961,7.79289322 C15.2544853,7.40236893 15.8876503,7.40236893 16.2781746,7.79289322 C16.6686989,8.18341751 16.6686989,8.81658249 16.2781746,9.20710678 L13.4497475,12.0355339 L16.2781746,14.863961 C16.6686989,15.2544853 16.6686989,15.8876503 16.2781746,16.2781746 C15.8876503,16.6686989 15.2544853,16.6686989 14.863961,16.2781746 L12.0355339,13.4497475 L9.20710678,16.2781746 C8.81658249,16.6686989 8.18341751,16.6686989 7.79289322,16.2781746 C7.40236893,15.8876503 7.40236893,15.2544853 7.79289322,14.863961 L10.6213203,12.0355339 L7.79289322,9.20710678 C7.40236893,8.81658249 7.40236893,8.18341751 7.79289322,7.79289322 C8.18341751,7.40236893 8.81658249,7.40236893 9.20710678,7.79289322 L12.0355339,10.6213203 Z" fill="#000000" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack">
-														<span class="fw-bold fs-6 text-gray-800">Unlimited Projects</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Error-circle.svg-->
-														<span class="svg-icon svg-icon-1">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M12.0355339,10.6213203 L14.863961,7.79289322 C15.2544853,7.40236893 15.8876503,7.40236893 16.2781746,7.79289322 C16.6686989,8.18341751 16.6686989,8.81658249 16.2781746,9.20710678 L13.4497475,12.0355339 L16.2781746,14.863961 C16.6686989,15.2544853 16.6686989,15.8876503 16.2781746,16.2781746 C15.8876503,16.6686989 15.2544853,16.6686989 14.863961,16.2781746 L12.0355339,13.4497475 L9.20710678,16.2781746 C8.81658249,16.6686989 8.18341751,16.6686989 7.79289322,16.2781746 C7.40236893,15.8876503 7.40236893,15.2544853 7.79289322,14.863961 L10.6213203,12.0355339 L7.79289322,9.20710678 C7.40236893,8.81658249 7.40236893,8.18341751 7.79289322,7.79289322 C8.18341751,7.40236893 8.81658249,7.40236893 9.20710678,7.79289322 L12.0355339,10.6213203 Z" fill="#000000" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-												</div>
-												<!--end::Features-->
-												<!--begin::Select-->
-												<a href="#" class="btn btn-primary">Select</a>
-												<!--end::Select-->
-											</div>
+										
 											<!--end::Option-->
 										</div>
 									</div>
 									<!--end::Col-->
 									<!--begin::Col-->
-									<div class="col-xl-4">
-										<div class="d-flex h-100 align-items-center">
-											<!--begin::Option-->
-											<div class="w-100 d-flex flex-column flex-center rounded-3 bg-primary py-20 px-10">
-												<!--begin::Heading-->
-												<div class="mb-7 text-center">
-													<!--begin::Title-->
-													<h1 class="text-white mb-5 fw-boldest">Business</h1>
-													<!--end::Title-->
-													<!--begin::Description-->
-													<div class="text-white opacity-75 fw-bold mb-5">Best Settings for Business</div>
-													<!--end::Description-->
-													<!--begin::Price-->
-													<div class="text-center">
-														<span class="mb-2 text-white">$</span>
-														<span class="fs-3x fw-bolder text-white" data-kt-plan-price-month="199" data-kt-plan-price-annual="1999">199</span>
-														<span class="fs-7 fw-bold text-white opacity-75" data-kt-plan-price-month="Mon" data-kt-plan-price-annual="Ann">/ Mon</span>
-													</div>
-													<!--end::Price-->
-												</div>
-												<!--end::Heading-->
-												<!--begin::Features-->
-												<div class="w-100 mb-10">
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">Up to 10 Active Users</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-white">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">Up to 30 Project Integrations</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-white">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">Keen Analytics Platform</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-white">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">Targets Timelines &amp; Files</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-white">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack">
-														<span class="fw-bold fs-6 text-white opacity-75">Unlimited Projects</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Error-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-white">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M12.0355339,10.6213203 L14.863961,7.79289322 C15.2544853,7.40236893 15.8876503,7.40236893 16.2781746,7.79289322 C16.6686989,8.18341751 16.6686989,8.81658249 16.2781746,9.20710678 L13.4497475,12.0355339 L16.2781746,14.863961 C16.6686989,15.2544853 16.6686989,15.8876503 16.2781746,16.2781746 C15.8876503,16.6686989 15.2544853,16.6686989 14.863961,16.2781746 L12.0355339,13.4497475 L9.20710678,16.2781746 C8.81658249,16.6686989 8.18341751,16.6686989 7.79289322,16.2781746 C7.40236893,15.8876503 7.40236893,15.2544853 7.79289322,14.863961 L10.6213203,12.0355339 L7.79289322,9.20710678 C7.40236893,8.81658249 7.40236893,8.18341751 7.79289322,7.79289322 C8.18341751,7.40236893 8.81658249,7.40236893 9.20710678,7.79289322 L12.0355339,10.6213203 Z" fill="#000000" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-												</div>
-												<!--end::Features-->
-												<!--begin::Select-->
-												<a href="#" class="btn btn-color-primary btn-active-light-primary btn-light">Select</a>
-												<!--end::Select-->
-											</div>
-											<!--end::Option-->
-										</div>
-									</div>
+									
 									<!--end::Col-->
 									<!--begin::Col-->
-									<div class="col-xl-4">
-										<div class="d-flex h-100 align-items-center">
-											<!--begin::Option-->
-											<div class="w-100 d-flex flex-column flex-center rounded-3 bg-body py-15 px-10">
-												<!--begin::Heading-->
-												<div class="mb-7 text-center">
-													<!--begin::Title-->
-													<h1 class="text-dark mb-5 fw-boldest">Enterprise</h1>
-													<!--end::Title-->
-													<!--begin::Description-->
-													<div class="text-gray-400 fw-bold mb-5">Best Settings for Enterprise</div>
-													<!--end::Description-->
-													<!--begin::Price-->
-													<div class="text-center">
-														<span class="mb-2 text-primary">$</span>
-														<span class="fs-3x fw-bolder text-primary" data-kt-plan-price-month="999" data-kt-plan-price-annual="9999">999</span>
-														<span class="fs-7 fw-bold opacity-50" data-kt-plan-price-month="Mon" data-kt-plan-price-annual="Ann">/ Mon</span>
-													</div>
-													<!--end::Price-->
-												</div>
-												<!--end::Heading-->
-												<!--begin::Features-->
-												<div class="w-100 mb-10">
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Up to 10 Active Users</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Up to 30 Project Integrations</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Keen Analytics Platform</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack mb-5">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Targets Timelines &amp; Files</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex flex-stack">
-														<span class="fw-bold fs-6 text-gray-800 text-start pe-3">Unlimited Projects</span>
-														<!--begin::Svg Icon | path: icons/duotone/Code/Done-circle.svg-->
-														<span class="svg-icon svg-icon-1 svg-icon-success">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																<circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10" />
-																<path d="M16.7689447,7.81768175 C17.1457787,7.41393107 17.7785676,7.39211077 18.1823183,7.76894473 C18.5860689,8.1457787 18.6078892,8.77856757 18.2310553,9.18231825 L11.2310553,16.6823183 C10.8654446,17.0740439 10.2560456,17.107974 9.84920863,16.7592566 L6.34920863,13.7592566 C5.92988278,13.3998345 5.88132125,12.7685345 6.2407434,12.3492086 C6.60016555,11.9298828 7.23146553,11.8813212 7.65079137,12.2407434 L10.4229928,14.616916 L16.7689447,7.81768175 Z" fill="#000000" fill-rule="nonzero" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</div>
-													<!--end::Item-->
-												</div>
-												<!--end::Features-->
-												<!--begin::Select-->
-												<a href="#" class="btn btn-primary">Select</a>
-												<!--end::Select-->
-											</div>
-											<!--end::Option-->
-										</div>
-									</div>
+									
 									<!--end::Col-->
 								</div>
 								<!--end::Row-->
@@ -1303,178 +1022,12 @@
 				<!--begin::Container-->
 				<div class="container">
 					<!--begin::Heading-->
-					<div class="text-center mb-17">
-						<!--begin::Title-->
-						<h3 class="fs-2hx text-dark mb-5" id="clients" data-kt-scroll-offset="{default: 125, lg: 150}">What Our Clients Say</h3>
-						<!--end::Title-->
-						<!--begin::Description-->
-						<div class="fs-5 text-muted fw-bold">Save thousands to millions of bucks by using single tool
-						<br />for different amazing and great useful admin</div>
-						<!--end::Description-->
-					</div>
+					
+
+
 					<!--end::Heading-->
 					<!--begin::Row-->
-					<div class="row g-lg-10 mb-10 mb-lg-20">
-						<!--begin::Col-->
-						<div class="col-lg-4">
-							<!--begin::Testimonial-->
-							<div class="d-flex flex-column justify-content-between h-lg-100 px-10 px-lg-0 pe-lg-10 mb-15 mb-lg-0">
-								<!--begin::Wrapper-->
-								<div class="mb-7">
-									<!--begin::Rating-->
-									<div class="rating mb-6">
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-									</div>
-									<!--end::Rating-->
-									<!--begin::Title-->
-									<div class="fs-2 fw-bolder text-dark mb-3">This is by far the cleanest template
-									<br />and the most well structured</div>
-									<!--end::Title-->
-									<!--begin::Feedback-->
-									<div class="text-gray-500 fw-bold fs-4">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
-									<!--end::Feedback-->
-								</div>
-								<!--end::Wrapper-->
-								<!--begin::Author-->
-								<div class="d-flex align-items-center">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-circle symbol-50px me-5">
-										<img src="{{ asset('admin/dist/assets') }}/media/avatars/150-2.jpg" class="" alt="" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Name-->
-									<div class="flex-grow-1">
-										<a href="#" class="text-dark fw-bolder text-hover-primary fs-6">Paul Miles</a>
-										<span class="text-muted d-block fw-bold">Development Lead</span>
-									</div>
-									<!--end::Name-->
-								</div>
-								<!--end::Author-->
-							</div>
-							<!--end::Testimonial-->
-						</div>
-						<!--end::Col-->
-						<!--begin::Col-->
-						<div class="col-lg-4">
-							<!--begin::Testimonial-->
-							<div class="d-flex flex-column justify-content-between h-lg-100 px-10 px-lg-0 pe-lg-10 mb-15 mb-lg-0">
-								<!--begin::Wrapper-->
-								<div class="mb-7">
-									<!--begin::Rating-->
-									<div class="rating mb-6">
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-									</div>
-									<!--end::Rating-->
-									<!--begin::Title-->
-									<div class="fs-2 fw-bolder text-dark mb-3">This is by far the cleanest template
-									<br />and the most well structured</div>
-									<!--end::Title-->
-									<!--begin::Feedback-->
-									<div class="text-gray-500 fw-bold fs-4">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
-									<!--end::Feedback-->
-								</div>
-								<!--end::Wrapper-->
-								<!--begin::Author-->
-								<div class="d-flex align-items-center">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-circle symbol-50px me-5">
-										<img src="{{ asset('admin/dist/assets') }}/media/avatars/150-3.jpg" class="" alt="" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Name-->
-									<div class="flex-grow-1">
-										<a href="#" class="text-dark fw-bolder text-hover-primary fs-6">Janya Clebert</a>
-										<span class="text-muted d-block fw-bold">Development Lead</span>
-									</div>
-									<!--end::Name-->
-								</div>
-								<!--end::Author-->
-							</div>
-							<!--end::Testimonial-->
-						</div>
-						<!--end::Col-->
-						<!--begin::Col-->
-						<div class="col-lg-4">
-							<!--begin::Testimonial-->
-							<div class="d-flex flex-column justify-content-between h-lg-100 px-10 px-lg-0 pe-lg-10 mb-15 mb-lg-0">
-								<!--begin::Wrapper-->
-								<div class="mb-7">
-									<!--begin::Rating-->
-									<div class="rating mb-6">
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-										<div class="rating-label me-2 checked">
-											<i class="bi bi-star-fill fs-5"></i>
-										</div>
-									</div>
-									<!--end::Rating-->
-									<!--begin::Title-->
-									<div class="fs-2 fw-bolder text-dark mb-3">This is by far the cleanest template
-									<br />and the most well structured</div>
-									<!--end::Title-->
-									<!--begin::Feedback-->
-									<div class="text-gray-500 fw-bold fs-4">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
-									<!--end::Feedback-->
-								</div>
-								<!--end::Wrapper-->
-								<!--begin::Author-->
-								<div class="d-flex align-items-center">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-circle symbol-50px me-5">
-										<img src="{{ asset('admin/dist/assets') }}/media/avatars/150-18.jpg" class="" alt="" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Name-->
-									<div class="flex-grow-1">
-										<a href="#" class="text-dark fw-bolder text-hover-primary fs-6">Steave Brown</a>
-										<span class="text-muted d-block fw-bold">Development Lead</span>
-									</div>
-									<!--end::Name-->
-								</div>
-								<!--end::Author-->
-							</div>
-							<!--end::Testimonial-->
-						</div>
-						<!--end::Col-->
-					</div>
+					
 					<!--end::Row-->
 					<!--begin::Highlight-->
 					<div class="d-flex flex-stack flex-wrap flex-md-nowrap card-rounded shadow p-8 p-lg-12 mb-n5 mb-lg-n13" style="background: linear-gradient(90deg, #20AA3E 0%, #03A588 100%);">
@@ -1624,11 +1177,11 @@
 							<div class="d-flex align-items-center order-2 order-md-1">
 								<!--begin::Logo-->
 								<a href="../../demo1/dist/landing.html">
-									<img alt="Logo" src="{{ asset('admin/dist/assets') }}/media/logos/logo-landing.svg" class="h-15px h-md-20px" />
+									<img alt="Logo" src="image/UMI.png" class="h-15px h-md-20px" />
 								</a>
 								<!--end::Logo image-->
 								<!--begin::Logo image-->
-								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://keenthemes.com">© 2021 Keenthemes Inc.</span>
+								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://keenthemes.com">© 2021 Pabura</span>
 								<!--end::Logo image-->
 							</div>
 							<!--end::Copyright-->
