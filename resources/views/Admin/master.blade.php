@@ -41,7 +41,7 @@
                     <!--begin::Logo-->
                     <a href="javascript:void(0);">
                         <h1><span style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-                            <span id="kt_landing_hero_text">Sayur-sayuran</span>
+                            <span id="kt_landing_hero_text">Pa'bura</span>
                         </span></h1>
                     </a>
                     <!--end::Logo-->
@@ -343,7 +343,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item me-lg-1">
-                                            <a class="menu-link py-3" href="{{ route('home') }}">
+                                            <a class="menu-link py-3" href="{{ route('seller') }}">
                                                 <span class="menu-title">Seller</span>
                                             </a>
                                         </div>

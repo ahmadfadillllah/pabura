@@ -15,7 +15,8 @@ class AdminController extends Controller
 
     public function seller()
     {
-        return view('Admin.seller');
+        $listProduk = Produk::where('user_id',auth()->user()->id)->get();
+        return view('Admin.seller', ['listProduk' => $listProduk]);
     }
 
     public function inputproduk(Request $request)
@@ -29,8 +30,9 @@ class AdminController extends Controller
         if($request->hasFile('image')){
             $request->file('image')->move('images/uploads/', $request->file('image')->getClientOriginalName());
             $produk->image = $request->file('image')->getClientOriginalName();
-            $produk->save();
+
         }
+        $produk->save();
 
         return redirect()->route('seller');
     }
